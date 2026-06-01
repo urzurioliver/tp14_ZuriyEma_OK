@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 public class Colection : MonoBehaviour
 {
-     public TextMeshProUGUI txt_contador;
-     private int objetosRecolectados = 0;
+    private int objetosRecolectados = 0;
+    UIMANAGER uiManagerScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,7 @@ public class Colection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        txt_contador.text = ("objetos recolectados: " + objetosRecolectados);
+        uiManagerScript.UpdateScore(objetosRecolectados);
     }
     void OnTriggerEnter(Collider col)
     {
