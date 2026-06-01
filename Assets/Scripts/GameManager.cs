@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     float timer =60;
-    UIMANAGER uiManagerScript;
+    public UIMANAGER uiManagerScript;
     // Start is called before the first frame update
     void Start()
     {

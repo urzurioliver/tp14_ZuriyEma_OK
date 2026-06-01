@@ -6,7 +6,7 @@ using TMPro;
 public class Colection : MonoBehaviour
 {
     private int objetosRecolectados = 0;
-    UIMANAGER uiManagerScript;
+    public UIMANAGER uiManagerScript;
     // Start is called before the first frame update
     void Start()
     {
