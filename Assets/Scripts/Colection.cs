@@ -5,18 +5,18 @@ using TMPro;
 
 public class Colection : MonoBehaviour
 {
-    private int objetosRecolectados = 0;
-    public UIMANAGER uiManagerScript;
+    private int score = 0;
+    UIMANAGER uiManagerScript;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        uiManagerScript =  FindObjectOfType<UIMANAGER>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        uiManagerScript.UpdateScore(objetosRecolectados);
+        uiManagerScript.UpdateScore(score);
     }
     void OnTriggerEnter(Collider col)
     {
@@ -24,7 +24,7 @@ public class Colection : MonoBehaviour
         {
         Destroy(col.gameObject);
         Debug.Log("objeto recolectado");
-        objetosRecolectados++;
+        score++;
         }
 }
 }
