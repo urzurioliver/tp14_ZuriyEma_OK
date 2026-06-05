@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    float timer =60;
+    float timer = 60;
     public UIMANAGER uiManagerScript;
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer = Time.deltaTime;
+        timer = timer - Time.deltaTime;
         uiManagerScript.UpdateTimer(timer);
        
     }
