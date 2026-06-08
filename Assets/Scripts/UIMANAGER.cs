@@ -7,7 +7,6 @@ public class UIMANAGER : MonoBehaviour
 {
     public TextMeshProUGUI txt_contador;
     public TextMeshProUGUI txt_time;
-
     
     // Start is called before the first frame update
     void Start()
