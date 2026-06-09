@@ -7,12 +7,10 @@ public class InteractiveArea : MonoBehaviour
 {
     private int score = 0;
     UIMANAGER uiManagerScript;
-    public GameObject panelWin;
     // Start is called before the first frame update
     void Awake()
     {
         uiManagerScript =  FindObjectOfType<UIMANAGER>();
-        panelWin.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,7 +27,7 @@ public class InteractiveArea : MonoBehaviour
         score++;
         }
         if (score == 5){
-            panelWin.gameObject.SetActive(true);
+            uiManagerScript.MostrarPantallaWin();
             Time.timeScale = 0;
         }
 }

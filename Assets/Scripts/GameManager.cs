@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     float timer = 60;
     public UIMANAGER uiManagerScript;
-    public GameObject panelLose;
 
     // Start is called before the first frame update
     void Start()
     {
-        panelLose.gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -21,11 +21,14 @@ public class GameManager : MonoBehaviour
         if (timer <= 0){
             timer = 0;
             uiManagerScript.UpdateTimer(timer);
-            panelLose.gameObject.SetActive(true);
             Time.timeScale = 0;
+            uiManagerScript.MostrarPantallaGameOver();
         }
         else {
             uiManagerScript.UpdateTimer(timer);
+        }
+        if(Input.GetKeyDown(KeyCode.R)){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
        
     }

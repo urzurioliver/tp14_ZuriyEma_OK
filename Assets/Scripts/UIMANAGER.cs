@@ -7,11 +7,14 @@ public class UIMANAGER : MonoBehaviour
 {
     public TextMeshProUGUI txt_contador;
     public TextMeshProUGUI txt_time;
+    public GameObject panelWin;
+    public GameObject panelLose;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        panelWin.gameObject.SetActive(false);
+        panelLose.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -26,5 +29,11 @@ public class UIMANAGER : MonoBehaviour
     public void UpdateTimer(float currTime)
     {
         txt_time.text = "Tiempo: " + currTime;
+    }
+    public void MostrarPantallaWin(){
+        panelWin.gameObject.SetActive(true);
+    }
+    public void MostrarPantallaGameOver(){
+        panelLose.gameObject.SetActive(true);
     }
 }
