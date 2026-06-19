@@ -1,31 +1,46 @@
 fileFormatVersion: 2
-guid: e984487126e15fd43bc17aebf46253cf
+guid: f8868a394c212b842a813f313107bd26
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: aula
-    100002: //RootNode
-    100004: ventana01
-    100006: ventana02
-    100008: ventana03
-    400000: aula
-    400002: //RootNode
-    400004: ventana01
-    400006: ventana02
-    400008: ventana03
+    100000: caja
+    100002: cama
+    100004: carcasa
+    100006: dndEntraTubo
+    100008: ejesYdispenser
+    100010: filamento
+    100012: filamentoCostado.001
+    100014: //RootNode
+    400000: caja
+    400002: cama
+    400004: carcasa
+    400006: dndEntraTubo
+    400008: ejesYdispenser
+    400010: filamento
+    400012: filamentoCostado.001
+    400014: //RootNode
     2100000: No Name
-    2300000: aula
-    2300002: ventana01
-    2300004: ventana02
-    2300006: ventana03
-    3300000: aula
-    3300002: ventana01
-    3300004: ventana02
-    3300006: ventana03
-    4300000: aula
-    4300002: ventana01
-    4300004: ventana02
-    4300006: ventana03
+    2300000: caja
+    2300002: cama
+    2300004: carcasa
+    2300006: dndEntraTubo
+    2300008: ejesYdispenser
+    2300010: filamento
+    2300012: filamentoCostado.001
+    3300000: caja
+    3300002: cama
+    3300004: carcasa
+    3300006: dndEntraTubo
+    3300008: ejesYdispenser
+    3300010: filamento
+    3300012: filamentoCostado.001
+    4300000: caja
+    4300002: cama
+    4300004: carcasa
+    4300006: dndEntraTubo
+    4300008: ejesYdispenser
+    4300010: filamento
+    4300012: filamentoCostado.001
   externalObjects: {}
   materials:
     importMaterials: 1
