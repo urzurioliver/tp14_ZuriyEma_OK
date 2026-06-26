@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 1345bf37a6c255344a6fe9b4f646ef37
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Alas
+    100002: Cabeza
+    100004: Circle
+    100006: Cube
+    100008: Cuerpo
+    100010: Cylinder
+    100012: Cylinder.001
+    100014: Cylinder.002
+    100016: Cylinder.003
+    100018: Cylinder.004
+    100020: Ojos
+    100022: Pata1
+    100024: Pico parte de abajo
+    100026: Pico parte de arriba
+    100028: 'Rueda '
+    100030: Rueda 1a
+    100032: Rueda 1b
+    100034: Rueda 2a
+    100036: Televisor
+    100038: Televisor.001
+    100040: //RootNode
+    400000: Alas
+    400002: Cabeza
+    400004: Circle
+    400006: Cube
+    400008: Cuerpo
+    400010: Cylinder
+    400012: Cylinder.001
+    400014: Cylinder.002
+    400016: Cylinder.003
+    400018: Cylinder.004
+    400020: Ojos
+    400022: Pata1
+    400024: Pico parte de abajo
+    400026: Pico parte de arriba
+    400028: 'Rueda '
+    400030: Rueda 1a
+    400032: Rueda 1b
+    400034: Rueda 2a
+    400036: Televisor
+    400038: Televisor.001
+    400040: //RootNode
+    2100000: Material.005
+    2100002: Material.004
+    2100004: Material.013
+    2100006: Material.021
+    2100008: Material.003
+    2100010: Material.023
+    2100012: Material.025
+    2100014: Material.024
+    2100016: Material.030
+    2100018: Material.031
+    2100020: Material.028
+    2100022: Material.029
+    2100024: Material.027
+    2100026: Material.026
+    2100028: Material.001
+    2100030: Material.022
+    2100032: Material.002
+    2100034: Material.006
+    2100036: Material.020
+    2100038: Material.019
+    2300000: Alas
+    2300002: Cabeza
+    2300004: Circle
+    2300006: Cube
+    2300008: Cuerpo
+    2300010: Cylinder
+    2300012: Cylinder.001
+    2300014: Cylinder.002
+    2300016: Cylinder.003
+    2300018: Cylinder.004
+    2300020: Ojos
+    2300022: Pata1
+    2300024: Pico parte de abajo
+    2300026: Pico parte de arriba
+    2300028: 'Rueda '
+    2300030: Rueda 1a
+    2300032: Rueda 1b
+    2300034: Rueda 2a
+    2300036: Televisor
+    2300038: Televisor.001
+    3300000: Alas
+    3300002: Cabeza
+    3300004: Circle
+    3300006: Cube
+    3300008: Cuerpo
+    3300010: Cylinder
+    3300012: Cylinder.001
+    3300014: Cylinder.002
+    3300016: Cylinder.003
+    3300018: Cylinder.004
+    3300020: Ojos
+    3300022: Pata1
+    3300024: Pico parte de abajo
+    3300026: Pico parte de arriba
+    3300028: 'Rueda '
+    3300030: Rueda 1a
+    3300032: Rueda 1b
+    3300034: Rueda 2a
+    3300036: Televisor
+    3300038: Televisor.001
+    4300000: Alas
+    4300002: Cabeza
+    4300004: Circle
+    4300006: Cube
+    4300008: Cuerpo
+    4300010: Cylinder
+    4300012: Cylinder.001
+    4300014: Cylinder.002
+    4300016: Cylinder.003
+    4300018: Cylinder.004
+    4300020: Rueda 1a
+    4300022: Rueda 1b
+    4300024: Rueda 2a
+    4300026: 'Rueda '
+    4300028: Ojos
+    4300030: Pata1
+    4300032: Pico parte de abajo
+    4300034: Pico parte de arriba
+    4300036: Televisor
+    4300038: Televisor.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
