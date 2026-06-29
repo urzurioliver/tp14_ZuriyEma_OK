@@ -3,44 +3,90 @@ guid: f8868a394c212b842a813f313107bd26
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: caja
-    100002: cama
-    100004: carcasa
-    100006: dndEntraTubo
-    100008: ejesYdispenser
-    100010: filamento
-    100012: filamentoCostado.001
-    100014: //RootNode
-    400000: caja
-    400002: cama
-    400004: carcasa
-    400006: dndEntraTubo
-    400008: ejesYdispenser
-    400010: filamento
-    400012: filamentoCostado.001
-    400014: //RootNode
-    2100000: No Name
-    2300000: caja
-    2300002: cama
-    2300004: carcasa
-    2300006: dndEntraTubo
-    2300008: ejesYdispenser
-    2300010: filamento
-    2300012: filamentoCostado.001
-    3300000: caja
-    3300002: cama
-    3300004: carcasa
-    3300006: dndEntraTubo
-    3300008: ejesYdispenser
-    3300010: filamento
-    3300012: filamentoCostado.001
-    4300000: caja
-    4300002: cama
-    4300004: carcasa
-    4300006: dndEntraTubo
-    4300008: ejesYdispenser
-    4300010: filamento
-    4300012: filamentoCostado.001
+    100000: "B\xE9zierCurve"
+    100002: caja
+    100004: caja.001
+    100006: cama
+    100008: carcasa
+    100010: dndEntraTubo
+    100012: ejesYdispenser
+    100014: filamento
+    100016: filamento.001
+    100018: filamento.002
+    100020: filamento.003
+    100022: filamento.004
+    100024: filamento.005
+    100026: filamentoCostado.001
+    100028: //RootNode
+    400000: "B\xE9zierCurve"
+    400002: caja
+    400004: caja.001
+    400006: cama
+    400008: carcasa
+    400010: dndEntraTubo
+    400012: ejesYdispenser
+    400014: filamento
+    400016: filamento.001
+    400018: filamento.002
+    400020: filamento.003
+    400022: filamento.004
+    400024: filamento.005
+    400026: filamentoCostado.001
+    400028: //RootNode
+    2100000: Material
+    2100002: transparente gris
+    2100004: Material.003
+    2100006: gris clarisimo
+    2100008: gris
+    2100010: Material.001
+    2100012: gris oscuro
+    2100014: Material.004
+    2100016: filamento material
+    2100018: filamento material.003
+    2100020: filamento material.002
+    2100022: filamento material.001
+    2300000: "B\xE9zierCurve"
+    2300002: caja
+    2300004: caja.001
+    2300006: cama
+    2300008: carcasa
+    2300010: dndEntraTubo
+    2300012: ejesYdispenser
+    2300014: filamento
+    2300016: filamento.001
+    2300018: filamento.002
+    2300020: filamento.003
+    2300022: filamento.004
+    2300024: filamento.005
+    2300026: filamentoCostado.001
+    3300000: "B\xE9zierCurve"
+    3300002: caja
+    3300004: caja.001
+    3300006: cama
+    3300008: carcasa
+    3300010: dndEntraTubo
+    3300012: ejesYdispenser
+    3300014: filamento
+    3300016: filamento.001
+    3300018: filamento.002
+    3300020: filamento.003
+    3300022: filamento.004
+    3300024: filamento.005
+    3300026: filamentoCostado.001
+    4300000: "B\xE9zierCurve"
+    4300002: caja
+    4300004: caja.001
+    4300006: cama
+    4300008: carcasa
+    4300010: dndEntraTubo
+    4300012: ejesYdispenser
+    4300014: filamento
+    4300016: filamento.001
+    4300018: filamento.002
+    4300020: filamento.003
+    4300022: filamento.004
+    4300024: filamento.005
+    4300026: filamentoCostado.001
   externalObjects: {}
   materials:
     importMaterials: 1
