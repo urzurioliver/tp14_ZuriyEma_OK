@@ -27,9 +27,13 @@ public class GameManager : MonoBehaviour
         else {
             uiManagerScript.UpdateTimer(timer);
         }
-        if(Input.GetKeyDown(KeyCode.R)){
+        if(Input.GetKeyDown(KeyCode.R )){
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+            if(Input.GetKeyDown(KeyCode.Space)){
+                Time.timeScale = 1;
+            uiManagerScript.Intro();
+    }
        
     }
 
