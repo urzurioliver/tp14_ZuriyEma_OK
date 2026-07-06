@@ -4,7 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
+
 {
+    
+    public AudioSource loseSound;
     float timer = 60;
     public UIMANAGER uiManagerScript;
 
@@ -23,6 +26,7 @@ public class GameManager : MonoBehaviour
             uiManagerScript.UpdateTimer(timer);
             Time.timeScale = 0;
             uiManagerScript.MostrarPantallaGameOver();
+            loseSound.Play();
         }
         else {
             uiManagerScript.UpdateTimer(timer);

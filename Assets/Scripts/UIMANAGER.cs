@@ -11,6 +11,8 @@ public class UIMANAGER : MonoBehaviour
     public GameObject panelWin;
     public GameObject panelLose;
     public GameObject panelIntro;
+    public GameObject panelScore;
+    public GameObject panelTimer;
 
     
     // Start is called before the first frame update
@@ -18,6 +20,8 @@ public class UIMANAGER : MonoBehaviour
     {
         panelWin.gameObject.SetActive(false);
         panelLose.gameObject.SetActive(false);
+        panelTimer.gameObject.SetActive(false);
+        panelScore.gameObject.SetActive(false);
         panelIntro.gameObject.SetActive(true);
     }
 
@@ -36,12 +40,19 @@ public class UIMANAGER : MonoBehaviour
     }
     public void MostrarPantallaWin(){
         panelWin.gameObject.SetActive(true);
+        panelTimer.gameObject.SetActive(false);
+        panelScore.gameObject.SetActive(false);
     }
     public void MostrarPantallaGameOver(){
         panelLose.gameObject.SetActive(true);
+        panelTimer.gameObject.SetActive(false);
+        panelScore.gameObject.SetActive(false);
     }
+
  public void Intro(){
         panelIntro.gameObject.SetActive(false);
+        panelTimer.gameObject.SetActive(true);
+        panelScore.gameObject.SetActive(true);
     }
 }
 

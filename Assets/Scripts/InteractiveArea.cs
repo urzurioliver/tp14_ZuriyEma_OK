@@ -7,6 +7,7 @@ public class InteractiveArea : MonoBehaviour
 {
     private int score = 0;
     UIMANAGER uiManagerScript;
+    public AudioSource winSound;
     // Start is called before the first frame update
     void Awake()
     {
@@ -29,6 +30,7 @@ public class InteractiveArea : MonoBehaviour
         if (score == 5){
             uiManagerScript.MostrarPantallaWin();
             Time.timeScale = 0;
+            winSound.Play();
         }
 }
 }
